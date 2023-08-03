@@ -1,43 +1,45 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-image: url(images/background.jpg);
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color:black;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 yellow;
 
 }
 
 footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+  color: blacks;
+  font-family: "Arvo";
+  text-shadow: 1px 0 yellow
 }
 
-.w {
+
+.g {
   background-image: url("images/granade.png");
 }
 
 .a {
-  background-image: url("images/akm.jpg");
+  background-image: url("images/akm.png");
 }
 
-.s {
-  background-image: url("images/kar98.jpg");
+.k{
+  background-image: url("images/kar98.png");
 }
 
-.d {
-  background-image: url("images/m416.jpg");
+.m{
+  background-image: url("images/m416.png");
 }
 
-.j {
-  background-image: url("images/pistol.jpg");
+.p {
+  background-image: url("images/pistol.png");
 }
 
-.k {
-  background-image: url("images/flare.jpg");
+.f {
+  background-image: url("images/flare.png");
 }
 
 .set {
@@ -58,10 +60,10 @@ footer {
   color: red;
 }
 
-.Weapon {
+.weapon {
   outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
+  border: 7px solid #404B69;
+  font-size: 1.8rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
@@ -72,6 +74,7 @@ footer {
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   background-color: white;
 }
+
