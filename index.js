@@ -1,10 +1,10 @@
 //Detecting Button Press
 
-var numberOfWeapons = document.querySelectorAll(".Weapon").length;
+var numberOfWeapons = document.querySelectorAll(".weapon").length;
 
-for (var i = 0; i < numberOfDrumButtons; i++) {
+for (var i = 0; i < numberOfWeapons; i++) {
 
-  document.querySelectorAll(".Weapon")[i].addEventListener("click", function() {
+  document.querySelectorAll(".weapon")[i].addEventListener("click", function() {
 
     var buttonInnerHTML = this.innerHTML;
 
@@ -30,7 +30,7 @@ document.addEventListener("keypress", function(event) {
 function makeSound(key) {
 
   switch (key) {
-    case "w":
+    case "g":
       var audio = new Audio('sounds/granade.mp3');
       audio.play();
       break;
@@ -40,22 +40,22 @@ function makeSound(key) {
       audio.play();
       break;
 
-    case "s":
+    case "k":
       var audio = new Audio('sounds/kar98.mp3');
       audio.play();
       break;
 
-    case "d":
+    case "m":
       var audio = new Audio('sounds/m416.mp3');
       audio.play();
       break;
 
-    case "j":
+    case "p":
       var audio = new Audio('sounds/pistol.mp3');
       audio.play();
       break;
 
-    case "k":
+    case "f":
       var audio = new Audio('sounds/flare.mp3');
       audio.play();
       break;
